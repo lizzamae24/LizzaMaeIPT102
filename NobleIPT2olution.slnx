@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="NobleBlazorWeb/NobleBlazorWeb.csproj" Id="b45558fb-5fff-4976-afee-9b49ef153028" />
+  <Project Path="NobleIPT2Data/NobleIPT2Data.sqlproj" Id="054264dd-b6e2-4fcc-a96c-161de19163e2">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="NobleIPT2Domain/NobleIPT2Domain.csproj" />
+  <Project Path="NobleIPT2Framework/NobleIPT2Framework.csproj" />
+  <Project Path="NobleIPT2WPF/NobleIPT2WPF.csproj" />
+</Solution>

@@ -1,0 +1,320 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B45558FB-5FFF-4976-AFEE-9B49EF153028}|NobleBlazorWeb\\NobleBlazorWeb.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleblazorweb\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B45558FB-5FFF-4976-AFEE-9B49EF153028}|NobleBlazorWeb\\NobleBlazorWeb.csproj|solutionrelative:nobleblazorweb\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45558FB-5FFF-4976-AFEE-9B49EF153028}|NobleBlazorWeb\\NobleBlazorWeb.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleblazorweb\\components\\pages\\sensors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B45558FB-5FFF-4976-AFEE-9B49EF153028}|NobleBlazorWeb\\NobleBlazorWeb.csproj|solutionrelative:nobleblazorweb\\components\\pages\\sensors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B45558FB-5FFF-4976-AFEE-9B49EF153028}|NobleBlazorWeb\\NobleBlazorWeb.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleblazorweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B45558FB-5FFF-4976-AFEE-9B49EF153028}|NobleBlazorWeb\\NobleBlazorWeb.csproj|solutionrelative:nobleblazorweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14FD96FB-C7DD-2D60-C7CB-5C0963F99992}|NobleIPT2WPF\\NobleIPT2WPF.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleipt2wpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{14FD96FB-C7DD-2D60-C7CB-5C0963F99992}|NobleIPT2WPF\\NobleIPT2WPF.csproj|solutionrelative:nobleipt2wpf\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E8FC1F7-C124-A31B-6112-00285E40F840}|NobleIPT2Framework\\NobleIPT2Framework.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleipt2framework\\extensions\\sensorsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E8FC1F7-C124-A31B-6112-00285E40F840}|NobleIPT2Framework\\NobleIPT2Framework.csproj|solutionrelative:nobleipt2framework\\extensions\\sensorsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054264DD-B6E2-4FCC-A96C-161DE19163E2}|NobleIPT2Data\\NobleIPT2Data.sqlproj|D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\UpdateSensor.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{054264DD-B6E2-4FCC-A96C-161DE19163E2}|NobleIPT2Data\\NobleIPT2Data.sqlproj|solutionrelative:NobleIPT2Data\\StoredProcedure\\UpdateSensor.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054264DD-B6E2-4FCC-A96C-161DE19163E2}|NobleIPT2Data\\NobleIPT2Data.sqlproj|D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\GetAllSensor.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{054264DD-B6E2-4FCC-A96C-161DE19163E2}|NobleIPT2Data\\NobleIPT2Data.sqlproj|solutionrelative:NobleIPT2Data\\StoredProcedure\\GetAllSensor.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054264DD-B6E2-4FCC-A96C-161DE19163E2}|NobleIPT2Data\\NobleIPT2Data.sqlproj|D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\DeleteSensor.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{054264DD-B6E2-4FCC-A96C-161DE19163E2}|NobleIPT2Data\\NobleIPT2Data.sqlproj|solutionrelative:NobleIPT2Data\\StoredProcedure\\DeleteSensor.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054264DD-B6E2-4FCC-A96C-161DE19163E2}|NobleIPT2Data\\NobleIPT2Data.sqlproj|D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\CreateSensor.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{054264DD-B6E2-4FCC-A96C-161DE19163E2}|NobleIPT2Data\\NobleIPT2Data.sqlproj|solutionrelative:NobleIPT2Data\\StoredProcedure\\CreateSensor.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054264DD-B6E2-4FCC-A96C-161DE19163E2}|NobleIPT2Data\\NobleIPT2Data.sqlproj|D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\GetSensors.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{054264DD-B6E2-4FCC-A96C-161DE19163E2}|NobleIPT2Data\\NobleIPT2Data.sqlproj|solutionrelative:NobleIPT2Data\\StoredProcedure\\GetSensors.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E8FC1F7-C124-A31B-6112-00285E40F840}|NobleIPT2Framework\\NobleIPT2Framework.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleipt2framework\\commands\\createcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E8FC1F7-C124-A31B-6112-00285E40F840}|NobleIPT2Framework\\NobleIPT2Framework.csproj|solutionrelative:nobleipt2framework\\commands\\createcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleipt2domain\\queries\\ireadsensorsbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|solutionrelative:nobleipt2domain\\queries\\ireadsensorsbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E8FC1F7-C124-A31B-6112-00285E40F840}|NobleIPT2Framework\\NobleIPT2Framework.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleipt2framework\\commands\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E8FC1F7-C124-A31B-6112-00285E40F840}|NobleIPT2Framework\\NobleIPT2Framework.csproj|solutionrelative:nobleipt2framework\\commands\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleipt2domain\\queries\\igetallsensors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|solutionrelative:nobleipt2domain\\queries\\igetallsensors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleipt2domain\\models\\sensors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|solutionrelative:nobleipt2domain\\models\\sensors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleipt2domain\\commands\\iupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|solutionrelative:nobleipt2domain\\commands\\iupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleipt2domain\\commands\\ideletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|solutionrelative:nobleipt2domain\\commands\\ideletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|d:\\wpf\\nobleipt102blazor\\nobleipt2olution\\nobleipt2domain\\commands\\icreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4DD6711-42E6-74EC-9A52-F253C461F30F}|NobleIPT2Domain\\NobleIPT2Domain.csproj|solutionrelative:nobleipt2domain\\commands\\icreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleBlazorWeb\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "NobleBlazorWeb\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleBlazorWeb\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "NobleBlazorWeb\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T01:48:14.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleBlazorWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "NobleBlazorWeb\\appsettings.json",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleBlazorWeb\\appsettings.json*",
+              "RelativeToolTip": "NobleBlazorWeb\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-08T01:41:40.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sensors.razor",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleBlazorWeb\\Components\\Pages\\Sensors.razor",
+              "RelativeDocumentMoniker": "NobleBlazorWeb\\Components\\Pages\\Sensors.razor",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleBlazorWeb\\Components\\Pages\\Sensors.razor",
+              "RelativeToolTip": "NobleBlazorWeb\\Components\\Pages\\Sensors.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-07T14:50:45.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2WPF\\appsettings.json",
+              "RelativeDocumentMoniker": "NobleIPT2WPF\\appsettings.json",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2WPF\\appsettings.json",
+              "RelativeToolTip": "NobleIPT2WPF\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-07T14:26:19.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SensorsExtension.cs",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Framework\\Extensions\\SensorsExtension.cs",
+              "RelativeDocumentMoniker": "NobleIPT2Framework\\Extensions\\SensorsExtension.cs",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Framework\\Extensions\\SensorsExtension.cs",
+              "RelativeToolTip": "NobleIPT2Framework\\Extensions\\SensorsExtension.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T06:53:16.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateCommand.cs",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Framework\\Commands\\CreateCommand.cs",
+              "RelativeDocumentMoniker": "NobleIPT2Framework\\Commands\\CreateCommand.cs",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Framework\\Commands\\CreateCommand.cs",
+              "RelativeToolTip": "NobleIPT2Framework\\Commands\\CreateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T06:52:50.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IReadSensorsById.cs",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Queries\\IReadSensorsById.cs",
+              "RelativeDocumentMoniker": "NobleIPT2Domain\\Queries\\IReadSensorsById.cs",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Queries\\IReadSensorsById.cs",
+              "RelativeToolTip": "NobleIPT2Domain\\Queries\\IReadSensorsById.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T06:46:20.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteCommand.cs",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Framework\\Commands\\DeleteCommand.cs",
+              "RelativeDocumentMoniker": "NobleIPT2Framework\\Commands\\DeleteCommand.cs",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Framework\\Commands\\DeleteCommand.cs",
+              "RelativeToolTip": "NobleIPT2Framework\\Commands\\DeleteCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T06:48:23.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGetAllSensors.cs",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Queries\\IGetAllSensors.cs",
+              "RelativeDocumentMoniker": "NobleIPT2Domain\\Queries\\IGetAllSensors.cs",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Queries\\IGetAllSensors.cs",
+              "RelativeToolTip": "NobleIPT2Domain\\Queries\\IGetAllSensors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T06:46:15.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Sensors.cs",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Models\\Sensors.cs",
+              "RelativeDocumentMoniker": "NobleIPT2Domain\\Models\\Sensors.cs",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Models\\Sensors.cs",
+              "RelativeToolTip": "NobleIPT2Domain\\Models\\Sensors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T06:35:06.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUpdateCommand.cs",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Commands\\IUpdateCommand.cs",
+              "RelativeDocumentMoniker": "NobleIPT2Domain\\Commands\\IUpdateCommand.cs",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Commands\\IUpdateCommand.cs",
+              "RelativeToolTip": "NobleIPT2Domain\\Commands\\IUpdateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T06:35:04.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IDeleteCommand.cs",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Commands\\IDeleteCommand.cs",
+              "RelativeDocumentMoniker": "NobleIPT2Domain\\Commands\\IDeleteCommand.cs",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Commands\\IDeleteCommand.cs",
+              "RelativeToolTip": "NobleIPT2Domain\\Commands\\IDeleteCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T06:35:02.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICreateCommand.cs",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Commands\\ICreateCommand.cs",
+              "RelativeDocumentMoniker": "NobleIPT2Domain\\Commands\\ICreateCommand.cs",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Domain\\Commands\\ICreateCommand.cs",
+              "RelativeToolTip": "NobleIPT2Domain\\Commands\\ICreateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T06:35:00.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateSensor.sql",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\UpdateSensor.sql",
+              "RelativeDocumentMoniker": "NobleIPT2Data\\StoredProcedure\\UpdateSensor.sql",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\UpdateSensor.sql\r\n(localdb)\\ProjectModels.NobleIPT2Data\r\n(MAE24\\noble)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-07T06:30:13.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAllSensor.sql",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\GetAllSensor.sql",
+              "RelativeDocumentMoniker": "NobleIPT2Data\\StoredProcedure\\GetAllSensor.sql",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\GetAllSensor.sql\r\n(localdb)\\ProjectModels.NobleIPT2Data\r\n(MAE24\\noble)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-07T06:30:54.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteSensor.sql",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\DeleteSensor.sql",
+              "RelativeDocumentMoniker": "NobleIPT2Data\\StoredProcedure\\DeleteSensor.sql",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\DeleteSensor.sql\r\n(localdb)\\ProjectModels.NobleIPT2Data\r\n(MAE24\\noble)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-07T06:29:31.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateSensor.sql",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\CreateSensor.sql",
+              "RelativeDocumentMoniker": "NobleIPT2Data\\StoredProcedure\\CreateSensor.sql",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\CreateSensor.sql\r\n(localdb)\\ProjectModels.NobleIPT2Data\r\n(MAE24\\noble)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-07T06:28:53.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetSensors.sql",
+              "DocumentMoniker": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\GetSensors.sql",
+              "RelativeDocumentMoniker": "NobleIPT2Data\\StoredProcedure\\GetSensors.sql",
+              "ToolTip": "D:\\WPF\\NobleIPT102Blazor\\NobleIPT2olution\\NobleIPT2Data\\StoredProcedure\\GetSensors.sql\r\n(localdb)\\ProjectModels.NobleIPT2Data\r\n(MAE24\\noble)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-07T06:31:13.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

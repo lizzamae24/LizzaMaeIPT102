@@ -1,0 +1,206 @@
+@page "/sensors"
+@rendermode InteractiveServer
+@using NobleIPT2Domain.Commands
+@using NobleIPT2Domain.Queries
+@using SensorModel = NobleIPT2Domain.Models.Sensors
+@inject IGetAllSensors GetAllSensors
+@inject ICreateCommand CreateCommand
+@inject IUpdateCommand UpdateCommand
+@inject IDeleteCommand DeleteCommand
+
+<PageTitle>Sensors</PageTitle>
+
+<div style="background:#F5F5F5; min-height:100%; padding:20px;">
+    <div style="display:flex; gap:20px; align-items:flex-start; flex-wrap:wrap;">
+
+        <!-- LEFT: Form -->
+        <div style="flex:1; min-width:300px; max-width:380px; background:white; border-radius:10px; padding:20px;">
+            <h4 style="text-align:center; font-weight:bold; margin-bottom:20px;">
+                @(isEditMode ? "Edit" : "Add") Sensors
+            </h4>
+
+            <label class="form-label">Sensor Name</label>
+            <input class="form-control mb-2" @bind="sensorName" placeholder="Sensor Name" />
+
+            <label class="form-label">Sensor Type</label>
+            <input class="form-control mb-2" @bind="sensorType" placeholder="Sensor Type" />
+
+            <label class="form-label">Location</label>
+            <input class="form-control mb-2" @bind="location" placeholder="Location" />
+
+            <label class="form-label">Status</label>
+            <input class="form-control mb-3" @bind="sensorStatus" placeholder="Status" />
+
+            @if (!string.IsNullOrEmpty(errorMessage))
+            {
+                <div class="alert alert-danger py-1 mb-2">@errorMessage</div>
+            }
+
+            <div style="display:flex; justify-content:flex-end; gap:10px;">
+                @if (isEditMode)
+                {
+                    <button class="btn btn-secondary" style="width:80px;" @onclick="CancelEdit">Cancel</button>
+                }
+                <button class="btn" style="width:80px; background:#007ACC; color:white;" @onclick="SaveAsync">
+                    @(isEditMode ? "Update" : "Save")
+                </button>
+            </div>
+        </div>
+
+        <!-- RIGHT: Table -->
+        <div style="flex:1.5; min-width:400px; background:white; border-radius:10px; padding:20px;">
+            <h5 style="font-weight:bold; margin-bottom:10px;">Sensors List</h5>
+
+            <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+                <span>Search:</span>
+                <input class="form-control" style="width:300px; height:32px; padding:2px 8px;"
+                       @bind="searchText" @bind:event="oninput" placeholder="Search..." />
+            </div>
+
+            @if (isLoading)
+            {
+                <p>Loading...</p>
+            }
+            else
+            {
+                <table class="table table-bordered table-hover" style="font-size:0.9rem;">
+                    <thead class="table-light">
+                        <tr>
+                            <th style="width:50px;">ID</th>
+                            <th>Sensor Name</th>
+                            <th>Sensor Type</th>
+                            <th>Location</th>
+                            <th>Status</th>
+                            <th style="width:70px;">Edit</th>
+                            <th style="width:70px;">Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var s in FilteredSensors)
+                        {
+                            <tr>
+                                <td>@s.SensorsId</td>
+                                <td>@s.SensorName</td>
+                                <td>@s.SensorType</td>
+                                <td>@s.Location</td>
+                                <td>@s.SensorStatus</td>
+                                <td>
+                                    <button class="btn btn-sm w-100"
+                                            style="background:#FFA500; color:white;"
+                                            @onclick="() => EditSensor(s)">Edit</button>
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm w-100"
+                                            style="background:#DC143C; color:white;"
+                                            @onclick="() => DeleteAsync(s)">Delete</button>
+                                </td>
+                            </tr>
+                        }
+                        @if (!FilteredSensors.Any())
+                        {
+                            <tr>
+                                <td colspan="7" class="text-center text-muted">No sensors found.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+
+    </div>
+</div>
+
+@code {
+    private List<SensorModel> allSensors = new();
+    private bool isEditMode = false;
+    private bool isLoading = true;
+    private string searchText = string.Empty;
+    private string errorMessage = string.Empty;
+
+    private string sensorName = string.Empty;
+    private string sensorType = string.Empty;
+    private string location = string.Empty;
+    private string sensorStatus = string.Empty;
+    private int currentId = 0;
+
+    private IEnumerable<SensorModel> FilteredSensors => string.IsNullOrWhiteSpace(searchText)
+        ? allSensors
+        : allSensors.Where(s =>
+            (s.SensorName?.Contains(searchText, StringComparison.OrdinalIgnoreCase) ?? false) ||
+            (s.SensorType?.Contains(searchText, StringComparison.OrdinalIgnoreCase) ?? false) ||
+            (s.Location?.Contains(searchText, StringComparison.OrdinalIgnoreCase) ?? false) ||
+            (s.SensorStatus?.Contains(searchText, StringComparison.OrdinalIgnoreCase) ?? false));
+
+    protected override async Task OnInitializedAsync() => await LoadAsync();
+
+    private async Task LoadAsync()
+    {
+        isLoading = true;
+        var result = await GetAllSensors.ExecuteAsync();
+        allSensors = result?.ToList() ?? new();
+        isLoading = false;
+    }
+
+    private async Task SaveAsync()
+    {
+        errorMessage = string.Empty;
+        try
+        {
+            var model = new SensorModel
+            {
+                SensorsId = currentId,
+                SensorName = sensorName,
+                SensorType = sensorType,
+                Location = location,
+                SensorStatus = sensorStatus
+            };
+
+            if (isEditMode)
+                await UpdateCommand.ExecuteAsync(model);
+            else
+                await CreateCommand.ExecuteAsync(model);
+
+            CancelEdit();
+            await LoadAsync();
+        }
+        catch (Exception ex)
+        {
+            errorMessage = ex.Message;
+        }
+    }
+
+    private void EditSensor(SensorModel s)
+    {
+        currentId = s.SensorsId;
+        sensorName = s.SensorName ?? string.Empty;
+        sensorType = s.SensorType ?? string.Empty;
+        location = s.Location ?? string.Empty;
+        sensorStatus = s.SensorStatus ?? string.Empty;
+        isEditMode = true;
+        errorMessage = string.Empty;
+    }
+
+    private async Task DeleteAsync(SensorModel s)
+    {
+        try
+        {
+            await DeleteCommand.ExecuteAsync(s);
+            await LoadAsync();
+        }
+        catch (Exception ex)
+        {
+            errorMessage = ex.Message;
+        }
+    }
+
+    private void CancelEdit()
+    {
+        currentId = 0;
+        sensorName = string.Empty;
+        sensorType = string.Empty;
+        location = string.Empty;
+        sensorStatus = string.Empty;
+        isEditMode = false;
+        errorMessage = string.Empty;
+    }
+}
